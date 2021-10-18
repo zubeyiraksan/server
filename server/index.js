@@ -11,5 +11,5 @@ app.use("/memories",firstRouter)
 
 
 app.listen(process.env.PORT,()=>{
-  mongoose.connect(process.env.MONGO_URI).then(()=> console.log("database has been connected")).catch(()=> console.log("database can not found ..."))
+  mongoose.connect(process.env.MONGO_URI).then(()=> console.log("database has been connected")).catch(()=> console.log("database can not found ...."))
 })
